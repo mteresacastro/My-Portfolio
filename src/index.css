@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -16,7 +16,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #ffffff;
   text-decoration: inherit;
 }
 a:hover {
@@ -48,11 +48,12 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #de5275;
+  border-color: #bd255c;
+  box-shadow: 5px inset #bd255c;
 }
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  outline: 6px auto -webkit-focus-ring-color;
 }
 
 @media (prefers-color-scheme: light) {
