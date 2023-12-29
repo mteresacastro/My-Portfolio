@@ -5,13 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #343333;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  background-color: #190f2b;
 }
 
 a {
@@ -20,7 +14,7 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #ed304f;
+  color: #fa136b;
 }
 
 body {
@@ -38,18 +32,19 @@ h1 {
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #fa136b;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #bd255c;
-  box-shadow: 5px inset #bd255c;
+  border: 2px inset #f8c4d7;
+  background-color: #ff3582;
+  font-weight: 600;
 }
 button:focus,
 button:focus-visible {

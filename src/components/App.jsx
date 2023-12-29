@@ -37,8 +37,8 @@ function App() {
             <a href="../src/assets/CV_Teresa_Castro_G.pdf" download="MTeresaCastro-CV.pdf">
               <button className="btn">Descargar CV</button>
             </a>
-            <a href=""><i className="fa-brands fa-square-github"></i></a>
-            <a href=""><i className="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/mteresacastro" target='_blank' rel="noreferrer"><i className="fa-brands fa-square-github"></i></a>
+            <a href="https://www.linkedin.com/in/mteresacastro" target='_blank' rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
           </div>
         </section>
         <section className="mainProjects">
@@ -82,13 +82,29 @@ function App() {
         </section>
         <section className="mainAboutMe">
           <h2>Algo más sobre mí...</h2>
-          <hr />
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus harum dignissimos vero non suscipit quisquam ipsum, sint recusandae explicabo, veritatis temporibus quae nihil perferendis hic, nam sed. Repellendus, doloribus totam!</p>
-          <hr />
+        </section>
+        <section className="mainContact">
+          <h2>Contacta conmigo</h2>
+          <form action="https://formsubmit.co/your@email.com" method="POST">
+            <label htmlFor="email">E-mail</label>
+            <input name="email" id="email" type="text" placeholder="email@correo.com" />
+            <label htmlFor="contact">Mensaje</label>
+            <textarea name="contact" id="" cols="30" rows="10" placeholder="Estamos interesados en tu perfil..."></textarea>
+            <div><button type="submit">Enviar</button></div>
+          </form>
         </section>
       </main>
-
-    </div>
+      <footer>
+        <img className="footer__logo" src="../../src/assets/miLogo-removebg-preview.png" alt="Logo Iniciales MTCG" />
+        <p>frase motivadora</p>
+        <p>Developed by <span>mtcastro</span></p>
+        <div>
+          <a href="https://github.com/mteresacastro" target='_blank' rel="noreferrer"><i className="fa-brands fa-square-github"></i></a>
+          <a href="https://www.linkedin.com/in/mteresacastro" target='_blank' rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
+        </div>
+      </footer>
+    </div >
   );
 }
 
