@@ -1,34 +1,14 @@
 import '../styles/App.scss';
+import Header from './Header';
 
 function App() {
   return (
     <div>
-      <header>
-        <img className="header__logo" src="../../src/assets/miLogo-removebg-preview.png" alt="Logo Iniciales MTCG" />
-        <nav className="header__nav">
-          <ul className="header__nav--ul">
-            <li>
-              <a className="link" href="#">Inicio</a>
-            </li>
-            <li>
-              <a className="link" href="#">Proyectos</a>
-            </li>
-            <li>
-              <a className="link" href="#">Habilidades</a>
-            </li>
-            <li>
-              <a className="link" href="#">Sobre mí</a>
-            </li>
-            <li>
-              <a className="link" href="#">Contacto</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <Header />
       <main>
         <section>
           <img src="" alt="" />
-          <div className='mainInfo'>
+          <div className='mainInfo' id="mainInfo">
             <h1>María Teresa Castro González</h1>
             <h2>Front-End Developer</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum natus cupiditate cum nihil enim quia provident, aspernatur asperiores sed. Itaque ipsa aliquid vel. Nisi rem adipisci, inventore necessitatibus rerum hic.</p>
@@ -41,7 +21,7 @@ function App() {
             <a href="https://www.linkedin.com/in/mteresacastro" target='_blank' rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
           </div>
         </section>
-        <section className="mainProjects">
+        <section className="mainProjects" id="mainProjects">
           <h2>Proyectos</h2>
           <h3>&lt;h3&gt; Cada línea de código te acerca un paso más a tu <span>meta</span> &lt;/h3&gt;</h3>
           <article>
@@ -65,7 +45,7 @@ function App() {
             </ul>
           </article>
         </section>
-        <section className="mainSkills">
+        <section className="mainSkills" id="mainSkills">
           <h2>Habilidades</h2>
           <h3>Más centrada en el Front, pero siempre con una mirada al Back</h3>
           <div className="mainSkills__box">
@@ -80,11 +60,11 @@ function App() {
             <img className="mainSkills__box--img" src="" alt="" />
           </div>
         </section>
-        <section className="mainAboutMe">
+        <section className="mainAboutMe" id="mainAboutMe">
           <h2>Algo más sobre mí...</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus harum dignissimos vero non suscipit quisquam ipsum, sint recusandae explicabo, veritatis temporibus quae nihil perferendis hic, nam sed. Repellendus, doloribus totam!</p>
         </section>
-        <section className="mainContact">
+        <section className="mainContact" id="mainContact">
           <h2>Contacta conmigo</h2>
           <form action="https://formsubmit.co/your@email.com" method="POST">
             <label htmlFor="email">E-mail</label>
@@ -96,7 +76,7 @@ function App() {
         </section>
       </main>
       <footer>
-        <img className="footer__logo" src="../../src/assets/miLogo-removebg-preview.png" alt="Logo Iniciales MTCG" />
+        <img className="footer__logo" src="../../src/assets/milogo.png" alt="Logo Iniciales MTCG" />
         <p>frase motivadora</p>
         <p>Developed by <span>mtcastro</span></p>
         <div>
