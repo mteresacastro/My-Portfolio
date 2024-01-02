@@ -1,5 +1,6 @@
 //import '../styles/App.scss';
-import '../styles/header.scss'
+import '../styles/header.scss';
+import PropTypes from 'prop-types';
 
 import milogo from '../../src/assets/milogo.png'
 
@@ -9,8 +10,8 @@ function Header({ toggleMenu, menuShow }) {
         <header className="header">
             <img className="header__logo" src={milogo} alt="Logo Iniciales MTCG" />
             <div className="header__burguer" onClick={toggleMenu}><i className="header__burguer--i fa-solid fa-bars"></i></div>
-            <nav className={menuShow ? 'show' : 'hidden'}>
-                <ul className="header__nav--ul">
+            <nav className="header__nav">
+                <ul className={menuShow ? 'show' : 'hidden'}>
                     <li>
                         <a className="link" href="#mainInfo">Inicio</a>
                     </li>
@@ -31,5 +32,10 @@ function Header({ toggleMenu, menuShow }) {
         </header >
     );
 }
+
+Header.propTypes = {
+    toggleMenu: PropTypes.func.isRequired,
+    menuShow: PropTypes.bool.isRequired
+};
 
 export default Header;
