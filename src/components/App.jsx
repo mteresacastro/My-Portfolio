@@ -1,13 +1,20 @@
 import '../styles/App.scss';
+import { useState } from 'react';
 import Header from './Header';
 
 function App() {
+  const [menuShow, setMenuShow] = useState(false);
+
+  function toggleMenu() {
+    setMenuShow(!menuShow);
+  }
+
   return (
     <div>
-      <Header />
+      <Header toggleMenu={toggleMenu} menuShow={menuShow} />
       <main>
         <section>
-          <img src="" alt="" />
+          <img src="../src/assets/mifoto2.png" alt="" />
           <div className='mainInfo' id="mainInfo">
             <h1>María Teresa Castro González</h1>
             <h2>Front-End Developer</h2>

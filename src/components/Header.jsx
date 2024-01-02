@@ -1,12 +1,15 @@
-import '../styles/App.scss';
+//import '../styles/App.scss';
+import '../styles/header.scss'
 
 import milogo from '../../src/assets/milogo.png'
 
-function Header() {
+function Header({ toggleMenu, menuShow }) {
+
     return (
-        <header>
+        <header className="header">
             <img className="header__logo" src={milogo} alt="Logo Iniciales MTCG" />
-            <nav className="header__nav">
+            <div className="header__burguer" onClick={toggleMenu}><i className="header__burguer--i fa-solid fa-bars"></i></div>
+            <nav className={menuShow ? 'show' : 'hidden'}>
                 <ul className="header__nav--ul">
                     <li>
                         <a className="link" href="#mainInfo">Inicio</a>
@@ -25,7 +28,7 @@ function Header() {
                     </li>
                 </ul>
             </nav>
-        </header>
+        </header >
     );
 }
 

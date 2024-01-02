@@ -2,19 +2,21 @@
   font-family: 'Raleway', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  margin:0;
+  padding:0.5;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #1c144b;
+  background-color: #09022a;
 }
 
 a {
-  font-weight: 500;
+  font-weight: 600;
   color: #ffffff;
   text-decoration: inherit;
 }
 a:hover {
   color: #DF5CEF;
+  text-decoration: underline;
 }
 
 body {
@@ -39,27 +41,11 @@ button {
   font-family: inherit;
   background-color: #DF5CEF;
   cursor: pointer;
-  transition: border-color 0.10s;
 }
 button:hover {
   border: 2px inset #f8c4d7;
-  background-color: #AF63EA;
-  color: #1c144b;
-}
-button:focus,
-button:focus-visible {
-  outline: 6px auto -webkit-focus-ring-color;
+  background-color: #c146b2;
+  color: #09022a;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+
