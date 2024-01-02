@@ -1,6 +1,7 @@
 import '../styles/App.scss';
 import { useState } from 'react';
 import Header from './Header';
+import IntroSection from './IntroSection';
 
 function App() {
   const [menuShow, setMenuShow] = useState(false);
@@ -13,21 +14,7 @@ function App() {
     <div>
       <Header toggleMenu={toggleMenu} menuShow={menuShow} />
       <main>
-        <section>
-          <img src="../src/assets/mifoto2.png" alt="" />
-          <div className='mainInfo' id="mainInfo">
-            <h1>María Teresa Castro González</h1>
-            <h2>Front-End Developer</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum natus cupiditate cum nihil enim quia provident, aspernatur asperiores sed. Itaque ipsa aliquid vel. Nisi rem adipisci, inventore necessitatibus rerum hic.</p>
-          </div>
-          <div className='contactInfo'>
-            <a href="../src/assets/CV_Teresa_Castro_G.pdf" download="MTeresaCastro-CV.pdf">
-              <button className="btn">Descargar CV</button>
-            </a>
-            <a href="https://github.com/mteresacastro" target='_blank' rel="noreferrer"><i className="fa-brands fa-square-github"></i></a>
-            <a href="https://www.linkedin.com/in/mteresacastro" target='_blank' rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
-          </div>
-        </section>
+        <IntroSection />
         <section className="mainProjects" id="mainProjects">
           <h2>Proyectos</h2>
           <h3>&lt;h3&gt; Cada línea de código te acerca un paso más a tu <span>meta</span> &lt;/h3&gt;</h3>

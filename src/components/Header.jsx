@@ -13,7 +13,7 @@ function Header({ toggleMenu, menuShow }) {
             <nav className="header__nav">
                 <ul className={menuShow ? 'show' : 'hidden'}>
                     <li>
-                        <a className="link" href="#mainInfo">Inicio</a>
+                        <a className="link" href="#mainIntro">Inicio</a>
                     </li>
                     <li>
                         <a className="link" href="#mainProjects">Proyectos</a>

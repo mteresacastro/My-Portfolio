@@ -1,0 +1,27 @@
+.mainIntro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__img{
+        width: 50%;
+    }
+    &__data{
+
+        &--h1{
+            font-size: 4.5rem;
+            margin-top: 1rem;
+        }
+        &--h2{}
+        &--desc{
+            font-size: 1.2rem;
+            &-span{
+                color: #DF5CEF;
+            }
+        }
+
+    }
+    @media all and (min-width: 768px){
+        flex-direction: row;
+    }
+}
