@@ -1,11 +1,33 @@
 .footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
     &__logo{
+        width: 8rem;
+        @media all and (min-width:768px){
+            width: 15rem;
+        }
     }
-    &__phrase{}
-    &__contact{}
+    &__phrase{
+        font-size: 1rem;
+        @media all and (min-width:768px){
+            font-size: 1.8rem;
+        }
+    }
+    &__contact{
+        font-size: 3rem;
+        display: flex;
+        gap: 1rem;
+    }
     &__by{
-        &-span{
-
+        font-size: 1rem;
+        @media all and (min-width:768px){
+            font-size: 1.2;
+        }
+        &--span{
+            color: #cc39b4;
+            font-weight: 600;
         }
     }
 }
