@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Header from './Header';
 import IntroSection from './IntroSection';
 import Footer from './Footer';
+import MainContact from './MainContact';
 
 function App() {
   const [menuShow, setMenuShow] = useState(false);
@@ -59,18 +60,7 @@ function App() {
           <h2>Algo más sobre mí...</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus harum dignissimos vero non suscipit quisquam ipsum, sint recusandae explicabo, veritatis temporibus quae nihil perferendis hic, nam sed. Repellendus, doloribus totam!</p>
         </section>
-        <section className="mainContact" id="mainContact">
-          <h2>Contacta conmigo</h2>
-          <form action="https://formsubmit.co/m.teresacastrogonzalez@gmail.com" method="POST">
-            <label htmlFor="email">E-mail</label>
-            <input name="email" id="email" type="text" placeholder="email@correo.com" />
-            <label htmlFor="subject">Asunto</label>
-            <input name="subject" id="subject" type="text" placeholder="Tema a tratar..." />
-            <label htmlFor="contact">Mensaje</label>
-            <textarea name="contact" id="" cols="30" rows="10" placeholder="Estamos interesados en tu perfil..."></textarea>
-            <div><button type="submit">Enviar</button></div>
-          </form>
-        </section>
+        <MainContact />
       </main>
       <Footer />
     </div >

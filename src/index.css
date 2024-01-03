@@ -4,6 +4,7 @@
   font-weight: 400;
   color: rgba(43, 38, 38, 0.87);
   background-color: #eadde6;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -46,6 +47,6 @@ button:hover {
   background-color: #c146b2;
   color: #09022a;
 }
-
-
-
+ul{
+  list-style: none;
+}
