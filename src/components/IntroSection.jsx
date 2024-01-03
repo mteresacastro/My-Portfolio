@@ -1,6 +1,5 @@
 //import '../styles/App.scss';
 import '../styles/introSection.scss';
-import PropTypes from 'prop-types';
 
 import photo from '../../src/assets/mifoto2.png';
 
