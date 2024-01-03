@@ -9,19 +9,32 @@
     &__data{
 
         &--h1{
-            font-size: 4.5rem;
+            font-size: 45px;
             margin-top: 1rem;
         }
-        &--h2{}
+        &--h2{
+            font-size: 3.5rem;
+            color: #cc39b4;
+        }
         &--desc{
-            font-size: 1.2rem;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.8;
+            margin: 1rem;
             &-span{
-                color: #DF5CEF;
+                color: #cc39b4;
             }
         }
+        &--contactInfo{
+                font-size: 3.5rem;
+                display:flex;
+                gap: 3rem;
+                align-items: center;
+                justify-content: center;
+            }
 
     }
     @media all and (min-width: 768px){
-        flex-direction: row;
+        flex-direction: row-reverse;
     }
 }

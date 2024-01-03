@@ -60,9 +60,11 @@ function App() {
         </section>
         <section className="mainContact" id="mainContact">
           <h2>Contacta conmigo</h2>
-          <form action="https://formsubmit.co/your@email.com" method="POST">
+          <form action="https://formsubmit.co/m.teresacastrogonzalez@gmail.com" method="POST">
             <label htmlFor="email">E-mail</label>
             <input name="email" id="email" type="text" placeholder="email@correo.com" />
+            <label htmlFor="subject">Asunto</label>
+            <input name="subject" id="subject" type="text" placeholder="Tema a tratar..." />
             <label htmlFor="contact">Mensaje</label>
             <textarea name="contact" id="" cols="30" rows="10" placeholder="Estamos interesados en tu perfil..."></textarea>
             <div><button type="submit">Enviar</button></div>

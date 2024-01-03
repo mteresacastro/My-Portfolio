@@ -2,20 +2,18 @@
   font-family: 'Raleway', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  margin:0;
-  padding:0.5;
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #09022a;
+  margin:2.3rem;
+  color: rgba(43, 38, 38, 0.87);
+  background-color: #eadde6;
 }
 
 a {
   font-weight: 600;
-  color: #ffffff;
+  color:rgba(43, 38, 38, 0.87);
   text-decoration: inherit;
 }
 a:hover {
-  color: #DF5CEF;
+  color: #dd54d6;
   text-decoration: underline;
 }
 
@@ -33,13 +31,14 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
+  border-radius: 10px;
   border: 2px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+  padding: 1rem 2rem;
+  margin: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   font-family: inherit;
-  background-color: #DF5CEF;
+  background-color: #dd54d6;
   cursor: pointer;
 }
 button:hover {
@@ -47,5 +46,6 @@ button:hover {
   background-color: #c146b2;
   color: #09022a;
 }
+
 
 

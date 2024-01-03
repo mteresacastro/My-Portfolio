@@ -2,7 +2,7 @@
 import '../styles/header.scss';
 import PropTypes from 'prop-types';
 
-import milogo from '../../src/assets/milogo.png'
+import milogo from '../../src/assets/miLogoMorado.png'
 
 function Header({ toggleMenu, menuShow }) {
 
