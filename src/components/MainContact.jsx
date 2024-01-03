@@ -1,7 +1,5 @@
 import '../styles/mainContact.scss';
 
-import milogo from '../../src/assets/miLogoMorado.png'
-
 function MainContact() {
 
     return (

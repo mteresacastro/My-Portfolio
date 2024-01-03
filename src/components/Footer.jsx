@@ -1,4 +1,3 @@
-//import '../styles/App.scss';
 import '../styles/footer.scss';
 
 import milogo from '../../src/assets/miLogo.png'

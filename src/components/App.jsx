@@ -4,6 +4,8 @@ import Header from './Header';
 import IntroSection from './IntroSection';
 import Footer from './Footer';
 import MainContact from './MainContact';
+import MainAboutMe from './MainAboutMe';
+
 
 function App() {
   const [menuShow, setMenuShow] = useState(false);
@@ -13,7 +15,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div id="mainIntro">
       <Header toggleMenu={toggleMenu} menuShow={menuShow} />
       <main>
         <IntroSection />
@@ -56,10 +58,7 @@ function App() {
             <img className="mainSkills__box--img" src="" alt="" />
           </div>
         </section>
-        <section className="mainAboutMe" id="mainAboutMe">
-          <h2>Algo más sobre mí...</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus harum dignissimos vero non suscipit quisquam ipsum, sint recusandae explicabo, veritatis temporibus quae nihil perferendis hic, nam sed. Repellendus, doloribus totam!</p>
-        </section>
+        <MainAboutMe />
         <MainContact />
       </main>
       <Footer />
