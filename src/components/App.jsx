@@ -2,6 +2,7 @@ import '../styles/App.scss';
 import { useState } from 'react';
 import Header from './Header';
 import IntroSection from './IntroSection';
+import Footer from './Footer';
 
 function App() {
   const [menuShow, setMenuShow] = useState(false);
@@ -71,15 +72,7 @@ function App() {
           </form>
         </section>
       </main>
-      <footer>
-        <img className="footer__logo" src="../../src/assets/milogo.png" alt="Logo Iniciales MTCG" />
-        <p>frase motivadora</p>
-        <p>Developed by <span>mtcastro</span></p>
-        <div>
-          <a href="https://github.com/mteresacastro" target='_blank' rel="noreferrer"><i className="fa-brands fa-square-github"></i></a>
-          <a href="https://www.linkedin.com/in/mteresacastro" target='_blank' rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
-        </div>
-      </footer>
+      <Footer />
     </div >
   );
 }
