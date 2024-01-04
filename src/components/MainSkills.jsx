@@ -21,19 +21,19 @@ function MainSkills() {
             <h2 className="mainSkills__h2">Habilidades</h2>
             <h3 className="mainSkills__h3">Más centrada en el Front, pero siempre con una mirada al Back</h3>
             <div className="mainSkills__box">
-                <img className="mainSkills__box--img" src={html} alt="" />
-                <img className="mainSkills__box--img" src={css} alt="" />
-                <img className="mainSkills__box--img" src={sass} alt="" />
-                <img className="mainSkills__box--img" src={javascript} alt="" />
-                <img className="mainSkills__box--img" src={react} alt="" />
-                <img className="mainSkills__box--img" src={vue} alt="" />
-                <img className="mainSkills__box--img" src={vite} alt="" />
-                <img className="mainSkills__box--img" src={nodejs} alt="" />
-                <img className="mainSkills__box--img" src={expressjs} alt="" />
-                <img className="mainSkills__box--img" src={mysql} alt="" />
-                <img className="mainSkills__box--img" src={git} alt="" />
-                <img className="mainSkills__box--img" src={github} alt="" />
-                <img className="mainSkills__box--img" src={scrum} alt="" />
+                <img className="mainSkills__box--img" src={html} alt="html logo" />
+                <img className="mainSkills__box--img" src={css} alt="css logo" />
+                <img className="mainSkills__box--img" src={sass} alt="sass logo" />
+                <img className="mainSkills__box--img" src={javascript} alt="javascript logo" />
+                <img className="mainSkills__box--img" src={react} alt="react logo" />
+                <img className="mainSkills__box--img" src={vue} alt="vue js logo" />
+                <img className="mainSkills__box--img" src={vite} alt="vite logo " />
+                <img className="mainSkills__box--img" src={nodejs} alt="node js logo" />
+                <img className="mainSkills__box--img" src={expressjs} alt="express js logo" />
+                <img className="mainSkills__box--img" src={mysql} alt="mysql logo" />
+                <img className="mainSkills__box--img" src={git} alt="git logo" />
+                <img className="mainSkills__box--img" src={github} alt="github logo" />
+                <img className="mainSkills__box--img" src={scrum} alt="scrum logo" id="mainAboutMe" />
             </div>
         </section>
     );

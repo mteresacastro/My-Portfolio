@@ -3,7 +3,7 @@ import '../styles/mainContact.scss';
 function MainContact() {
 
     return (
-        <section className="mainContact" id="mainContact">
+        <section className="mainContact">
             <h2 className="mainContact__h2">Contacta conmigo</h2>
             <form className="mainContact__form" action="https://formsubmit.co/m.teresacastrogonzalez@gmail.com" method="POST">
                 <label className="mainContact__form--label" htmlFor="email">E-mail
