@@ -1,0 +1,28 @@
+.mainSkills{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    &__h2{
+        font-size: 2.8rem;
+    }
+    &__h3{
+        font-size: 2rem;
+        color: #cc39b4;
+    }
+    &__box{
+        border: 3px solid #cc39b4;
+        border-radius: 10px;
+        background-color: #edd2e5;
+        margin: 1rem;
+        display: block;
+        text-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 4rem 8rem;
+        &--img{
+            width: 8rem;
+            margin: 2rem;
+        }
+    }
+}

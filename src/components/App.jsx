@@ -5,6 +5,7 @@ import IntroSection from './IntroSection';
 import Footer from './Footer';
 import MainContact from './MainContact';
 import MainAboutMe from './MainAboutMe';
+import MainSkills from './MainSkills';
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
             <img src="" alt="" />
             <h4>Título proyecto</h4>
             <ul>
-              <li><img src="../src/images/css-100.png" alt="logo css"></img></li>
+              <li><img src="../src/images/css-48.png" alt="logo css"></img></li>
               <li><img src="" alt=""></img></li>
               <li><img src="" alt=""></img></li>
               <li><img src="" alt=""></img></li>
@@ -36,28 +37,14 @@ function App() {
             <img src="" alt="" />
             <h4>Título proyecto 2</h4>
             <ul>
-              <li><img src="../src/images/css-100.png" alt="logo css"></img></li>
+              <li><img src="../src/images/css-48.png" alt="logo css"></img></li>
               <li><img src="" alt=""></img></li>
               <li><img src="" alt=""></img></li>
               <li><img src="" alt=""></img></li>
             </ul>
           </article>
         </section>
-        <section className="mainSkills" id="mainSkills">
-          <h2>Habilidades</h2>
-          <h3>Más centrada en el Front, pero siempre con una mirada al Back</h3>
-          <div className="mainSkills__box">
-            <img className="mainSkills__box--img" src="" alt="" />
-            <img className="mainSkills__box--img" src="" alt="" />
-            <img className="mainSkills__box--img" src="" alt="" />
-            <img className="mainSkills__box--img" src="" alt="" />
-            <img className="mainSkills__box--img" src="" alt="" />
-            <img className="mainSkills__box--img" src="" alt="" />
-            <img className="mainSkills__box--img" src="" alt="" />
-            <img className="mainSkills__box--img" src="" alt="" />
-            <img className="mainSkills__box--img" src="" alt="" />
-          </div>
-        </section>
+        <MainSkills />
         <MainAboutMe />
         <MainContact />
       </main>
