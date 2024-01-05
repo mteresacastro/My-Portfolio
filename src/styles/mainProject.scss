@@ -13,28 +13,23 @@
         flex-wrap: wrap;
     }
     &__art{
-        display:flex;
-        flex-direction: column;
-        &--img{
-            width: 20rem;
-            &-container{
+        &--container{
+            position: relative;
+            &-img{
+                width: 40rem;
                 position:absolute;
+                top: 0;
+                left: 0;
             }
+            &-div{
+                position: absolute;
         }
-        &--div{
-            display: inline;
-            &-h4{
-                font-size: 1.6rem;
-                display: inline;
-            }
-            &-ul{
-                display: flex;
-            }
+        
 
         }
     }
 }
 
-.div__ul--li{
+.art__div--ul-img{
     width: 4rem;
 }
