@@ -23,18 +23,7 @@ function MainProjects() {
                         </div>
                     </div>
                 </article>
-                <article className="mainProjects__art">
-                    <img className="mainProjects__art--img" src="" alt="" />
-                    <div className="mainProjects__art--div">
-                        <h4 className="mainProjects__art--div-h4">Título proyecto</h4>
-                        <ul className="mainProjects__art--div-ul">
-                            <li><img className="div__ul--li" src="../src/images/css-48.png" alt="logo css"></img></li>
-                            <li><img className="div__ul--li" src="" alt=""></img></li>
-                            <li><img className="div__ul--li" src="" alt=""></img></li>
-                            <li><img className="div__ul--li" src="" alt=""></img></li>
-                        </ul>
-                    </div>
-                </article>
+
             </div>
         </section>
     );
