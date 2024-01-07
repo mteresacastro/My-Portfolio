@@ -15,14 +15,34 @@
     &__art{
         &--container{
             position: relative;
+            width: 50%;
+            border-radius: 15px;
+            :hover{
+                z-index: 8;
+            
+            }
             &-img{
-                width: 40rem;
+                width: 50%;
                 position:absolute;
                 top: 0;
                 left: 0;
+                z-index: 20;
+                border-radius: 15px;
+                
             }
             &-div{
                 position: absolute;
+                display: flex;
+                flex-direction: column;
+                justify-items: center;
+                align-items: center;
+                width: 50%;
+                background-color: #6f3667d8;
+                z-index: 10;
+                pointer-events: none;
+                border-radius: 15px;
+                gap: 1rem;
+               
         }
         
 
@@ -30,6 +50,17 @@
     }
 }
 
-.art__div--ul-img{
-    width: 4rem;
+.art__div{
+    
+   &--h4{
+    font-size: 1.6rem;
+    font-weight: 800;
+    color:#dd54d6;
+   } 
+   &--ul{
+        display: flex;
+        &-img{
+           width: 4rem; 
+        }
+   }
 }

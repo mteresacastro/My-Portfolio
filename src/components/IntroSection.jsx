@@ -18,7 +18,7 @@ function IntroSection() {
                 <div className='mainIntro__data--contactInfo'>
                     <a href="https://github.com/mteresacastro" target='_blank' rel="noreferrer"><i className="fa-brands fa-square-github"></i></a>
                     <a href="https://www.linkedin.com/in/mteresacastro" target='_blank' rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
-                    <a href="mailto:m.teresacastrogonzalez@gmail.com" target='_blank' rel="noreferrer"><i className="fa-solid fa-square-envelope"></i></a>
+                    <a href="mailto:m.teresacastrogonzalez@gmail.com" target='_blank' rel="noreferrer" id="mainProjects"><i className="fa-solid fa-square-envelope"></i></a>
                 </div>
             </div>
 
