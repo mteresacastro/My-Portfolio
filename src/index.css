@@ -14,7 +14,7 @@ a {
 }
 a:hover {
   color: #dd54d6;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 body {
@@ -23,6 +23,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  cursor: url(./images/cursor.png);
 }
 
 h1 {
