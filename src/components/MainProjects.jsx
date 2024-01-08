@@ -1,7 +1,10 @@
 import '../styles/mainProject.scss';
 import school from '../../src/images/backtoschool.png'
 import team from '../../src/images/teamPresentation.png'
-
+import spotify from '../../src/images/spotify.png'
+import profileCards from '../../src/images/profileCards.png'
+import rockPaperScissors from '../../src/images/rockPaperScissors.png'
+import hangmanGame from '../../src/images/hangmanGame.png'
 
 
 function MainProjects() {
@@ -58,13 +61,13 @@ function MainProjects() {
                         </div>
                     </a>
                 </a>
-                <a href="https://mteresacastro.github.io/Static-Website-BackToSchool-HTML-CSS/" target='_blank' rel='noreferrer'>
+                <a href="https://mteresacastro.github.io/Spotify-HTML-CSS/" target='_blank' rel='noreferrer'>
                     <article className="mainProjects__art">
                         <div className="mainProjects__art--container">
-                            <img className="mainProjects__art--container-img" src={school} alt="" />
+                            <img className="mainProjects__art--container-img" src={spotify} alt="" />
                             <div className="mainProjects__art--container-div">
                                 <h4 className="art__div--h4">Visitar Demo</h4>
-                                <p className="art__div--p">Web estática desarrollada según un diseño de Zeplin preestablecido. Diseño responsive.</p>
+                                <p className="art__div--p">Recreación del diseño de la web de Spotify. Desarrollo mediante pair programming. Diseño responsive.</p>
                                 <ul className="art__div--ul">
                                     <li><img className="art__div--ul-img" src="../src/images/html-48.png" alt="logo html" /></li>
                                     <li><img className="art__div--ul-img" src="../src/images/css-48.png" alt="logo css" /></li>
@@ -73,32 +76,80 @@ function MainProjects() {
                             </div>
                         </div>
                     </article>
-                    <a className="a" href="https://github.com/mteresacastro/Static-Website-Team-Presentation-HTML-CSS" target='_blank' rel='noreferrer'>
+                    <a className="a" href="https://github.com/mteresacastro/Spotify-HTML-CSS" target='_blank' rel='noreferrer'>
                         <div className="mainProjects__art--titleGit">
                             <i className="mainProjects__art--titleGit-git fa-brands fa-github"></i>
-                            <h4 className="mainProjects__art--titleGit-title">Team Presentation - Ver código</h4>
+                            <h4 className="mainProjects__art--titleGit-title">Spotify - Ver código</h4>
                         </div>
                     </a>
                 </a>
-                <a href="https://mteresacastro.github.io/Static-Website-BackToSchool-HTML-CSS/" target='_blank' rel='noreferrer'>
+                <a href="https://mteresacastro.github.io/Profile-Cards-JS/" target='_blank' rel='noreferrer'>
                     <article className="mainProjects__art">
                         <div className="mainProjects__art--container">
-                            <img className="mainProjects__art--container-img" src={school} alt="" />
+                            <img className="mainProjects__art--container-img" src={profileCards} alt="" />
                             <div className="mainProjects__art--container-div">
                                 <h4 className="art__div--h4">Visitar Demo</h4>
-                                <p className="art__div--p">Web estática desarrollada según un diseño de Zeplin preestablecido. Diseño responsive.</p>
+                                <p className="art__div--p">Web desarrollada con JS Vanilla. Crea tu tarjeta de perfil personalizada con tus datos de contacto. Diseño responsive.</p>
                                 <ul className="art__div--ul">
                                     <li><img className="art__div--ul-img" src="../src/images/html-48.png" alt="logo html" /></li>
                                     <li><img className="art__div--ul-img" src="../src/images/css-48.png" alt="logo css" /></li>
                                     <li><img className="art__div--ul-img" src="../src/images/sass-48.png" alt="logo sass" /></li>
+                                    <li><img className="art__div--ul-img" src="../src/images/javascript-48.png" alt="logo javascript" /></li>
                                 </ul>
                             </div>
                         </div>
                     </article>
-                    <a className="a" href="https://github.com/mteresacastro/Static-Website-Team-Presentation-HTML-CSS" target='_blank' rel='noreferrer'>
+                    <a className="a" href="https://github.com/mteresacastro/Profile-Cards-JS" target='_blank' rel='noreferrer'>
                         <div className="mainProjects__art--titleGit">
                             <i className="mainProjects__art--titleGit-git fa-brands fa-github"></i>
-                            <h4 className="mainProjects__art--titleGit-title">Team Presentation - Ver código</h4>
+                            <h4 className="mainProjects__art--titleGit-title">Profile Cards - Ver código</h4>
+                        </div>
+                    </a>
+                </a>
+                <a href="https://mteresacastro.github.io/Game-RockPaperScissors-JS/" target='_blank' rel='noreferrer'>
+                    <article className="mainProjects__art">
+                        <div className="mainProjects__art--container">
+                            <img className="mainProjects__art--container-img" src={rockPaperScissors} alt="" />
+                            <div className="mainProjects__art--container-div">
+                                <h4 className="art__div--h4">Visitar Demo</h4>
+                                <p className="art__div--p">Versión online del clásico juego Piedra, Papel o Tijera. Desarrollado con Javascript Vanilla. </p>
+                                <ul className="art__div--ul">
+                                    <li><img className="art__div--ul-img" src="../src/images/html-48.png" alt="logo html" /></li>
+                                    <li><img className="art__div--ul-img" src="../src/images/css-48.png" alt="logo css" /></li>
+                                    <li><img className="art__div--ul-img" src="../src/images/sass-48.png" alt="logo sass" /></li>
+                                    <li><img className="art__div--ul-img" src="../src/images/javascript-48.png" alt="logo javascript" /></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <a className="a" href="https://github.com/mteresacastro/Game-RockPaperScissors-JS" target='_blank' rel='noreferrer'>
+                        <div className="mainProjects__art--titleGit">
+                            <i className="mainProjects__art--titleGit-git fa-brands fa-github"></i>
+                            <h4 className="mainProjects__art--titleGit-title">Profile Cards - Ver código</h4>
+                        </div>
+                    </a>
+                </a>
+                <a href="https://mteresacastro.github.io/HangmanGame-React/" target='_blank' rel='noreferrer'>
+                    <article className="mainProjects__art">
+                        <div className="mainProjects__art--container">
+                            <img className="mainProjects__art--container-img" src={hangmanGame} alt="" />
+                            <div className="mainProjects__art--container-div">
+                                <h4 className="art__div--h4">Visitar Demo</h4>
+                                <p className="art__div--p">Versión online del clásico juego del ahorcado. SPA desarrollada con React mediante pair programming. Dos modalidades de juego. </p>
+                                <ul className="art__div--ul">
+                                    <li><img className="art__div--ul-img" src="../src/images/html-48.png" alt="logo html" /></li>
+                                    <li><img className="art__div--ul-img" src="../src/images/css-48.png" alt="logo css" /></li>
+                                    <li><img className="art__div--ul-img" src="../src/images/sass-48.png" alt="logo sass" /></li>
+                                    <li><img className="art__div--ul-img" src="../src/images/javascript-48.png" alt="logo javascript" /></li>
+                                    <li><img className="art__div--ul-img" src="../src/images/react-48.png" alt="logo react" /></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <a className="a" href="https://github.com/mteresacastro/HangmanGame-React" target='_blank' rel='noreferrer'>
+                        <div className="mainProjects__art--titleGit">
+                            <i className="mainProjects__art--titleGit-git fa-brands fa-github"></i>
+                            <h4 className="mainProjects__art--titleGit-title">Profile Cards - Ver código</h4>
                         </div>
                     </a>
                 </a>
