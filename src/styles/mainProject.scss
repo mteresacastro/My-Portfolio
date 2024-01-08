@@ -1,9 +1,9 @@
 .mainProjects{
-    width: 100%;
+    max-width: 100%;
     margin: 4rem 3rem;
     &__h2{
         font-size: 2.8rem;
-        margin-top: 3rem 2rem;
+        margin: 3rem;
     }
     &__h3{
         font-size: 2rem;
@@ -11,9 +11,6 @@
         &--span {
            color: #cc39b4;
         }
-    }
-    &__div{
-       display: flex;
     }
     &__art{
         width: 35rem;
@@ -23,7 +20,8 @@
             width: 35rem;
             border-radius: 15px;
             display:flex;
-            &-img{
+            flex-wrap: wrap;
+               &-img{
                 width: 35rem;
                 border-radius: 15px; 
                 
@@ -48,9 +46,17 @@
                 visibility: visible; 
               }
         }
-        &--title{
-            font-size: 2rem;
-            padding: 1rem 1rem 3rem 1rem;
+        &--titleGit{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &-title{
+                font-size: 1.8rem;
+                padding: 1rem;
+            }
+            &-git{
+                font-size: 2.5rem;
+            }
         }
       
     }
@@ -78,4 +84,9 @@
 .box{
     display:flex;
     gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.link-code{
+    width: 3rem;
 }
