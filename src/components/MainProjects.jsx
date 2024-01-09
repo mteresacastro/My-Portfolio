@@ -7,6 +7,13 @@ import rockPaperScissors from '../../src/images/rockPaperScissors.png'
 import hangmanGame from '../../src/images/hangmanGame.png'
 import owen from '../../src/images/owen.png'
 
+import html from '../../src/images/html-48.png'
+import css from '../../src/images/css-48.png'
+import sass from '../../src/images/sass-48.png'
+import javascript from '../../src/images/javascript-48.png'
+import react from '../../src/images/react-48.png'
+import scrum from '../../src/images/scrum-48.png'
+
 
 function MainProjects() {
 
@@ -24,9 +31,9 @@ function MainProjects() {
                                 <h4 className="art__div--h4">Visitar Demo</h4>
                                 <p className="art__div--p">Web estática desarrollada según un diseño de Zeplin preestablecido. Diseño responsive.</p>
                                 <ul className="art__div--ul">
-                                    <li><img className="art__div--ul-img" src="../src/images/html-48.png" alt="logo html" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/css-48.png" alt="logo css" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/sass-48.png" alt="logo sass" /></li>
+                                    <li><img className="art__div--ul-img" src={html} alt="logo html" /></li>
+                                    <li><img className="art__div--ul-img" src={css} alt="logo css" /></li>
+                                    <li><img className="art__div--ul-img" src={sass} alt="logo sass" /></li>
                                 </ul>
                             </div>
                         </div>
@@ -46,10 +53,10 @@ function MainProjects() {
                                 <h4 className="art__div--h4">Visitar Demo</h4>
                                 <p className="art__div--p">Web estática desarrollada en equipo según metodología Agile. Diseño responsive.</p>
                                 <ul className="art__div--ul">
-                                    <li><img className="art__div--ul-img" src="../src/images/html-48.png" alt="logo html" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/css-48.png" alt="logo css" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/sass-48.png" alt="logo sass" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/scrum-48.png" alt="logo scrum" /></li>
+                                    <li><img className="art__div--ul-img" src={html} alt="logo html" /></li>
+                                    <li><img className="art__div--ul-img" src={css} alt="logo css" /></li>
+                                    <li><img className="art__div--ul-img" src={sass} alt="logo sass" /></li>
+                                    <li><img className="art__div--ul-img" src={scrum} alt="logo scrum" /></li>
                                 </ul>
                             </div>
                         </div>
@@ -70,9 +77,9 @@ function MainProjects() {
                                 <h4 className="art__div--h4">Visitar Demo</h4>
                                 <p className="art__div--p">Recreación del diseño de la web de Spotify. Desarrollo mediante pair programming. Diseño responsive.</p>
                                 <ul className="art__div--ul">
-                                    <li><img className="art__div--ul-img" src="../src/images/html-48.png" alt="logo html" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/css-48.png" alt="logo css" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/sass-48.png" alt="logo sass" /></li>
+                                    <li><img className="art__div--ul-img" src={html} alt="logo html" /></li>
+                                    <li><img className="art__div--ul-img" src={css} alt="logo css" /></li>
+                                    <li><img className="art__div--ul-img" src={sass} alt="logo sass" /></li>
                                 </ul>
                             </div>
                         </div>
@@ -92,10 +99,10 @@ function MainProjects() {
                                 <h4 className="art__div--h4">Visitar Demo</h4>
                                 <p className="art__div--p">Web desarrollada con JS Vanilla. Crea tu tarjeta de perfil personalizada con tus datos de contacto. Diseño responsive.</p>
                                 <ul className="art__div--ul">
-                                    <li><img className="art__div--ul-img" src="../src/images/html-48.png" alt="logo html" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/css-48.png" alt="logo css" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/sass-48.png" alt="logo sass" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/javascript-48.png" alt="logo javascript" /></li>
+                                    <li><img className="art__div--ul-img" src={html} alt="logo html" /></li>
+                                    <li><img className="art__div--ul-img" src={css} alt="logo css" /></li>
+                                    <li><img className="art__div--ul-img" src={sass} alt="logo sass" /></li>
+                                    <li><img className="art__div--ul-img" src={javascript} alt="logo javascript" /></li>
                                 </ul>
                             </div>
                         </div>
@@ -115,10 +122,10 @@ function MainProjects() {
                                 <h4 className="art__div--h4">Visitar Demo</h4>
                                 <p className="art__div--p">Versión online del clásico juego Piedra, Papel o Tijera. Desarrollado con Javascript Vanilla. </p>
                                 <ul className="art__div--ul">
-                                    <li><img className="art__div--ul-img" src="../src/images/html-48.png" alt="logo html" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/css-48.png" alt="logo css" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/sass-48.png" alt="logo sass" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/javascript-48.png" alt="logo javascript" /></li>
+                                    <li><img className="art__div--ul-img" src={html} alt="logo html" /></li>
+                                    <li><img className="art__div--ul-img" src={css} alt="logo css" /></li>
+                                    <li><img className="art__div--ul-img" src={sass} alt="logo sass" /></li>
+                                    <li><img className="art__div--ul-img" src={javascript} alt="logo javascript" /></li>
                                 </ul>
                             </div>
                         </div>
@@ -138,11 +145,11 @@ function MainProjects() {
                                 <h4 className="art__div--h4">Visitar Demo</h4>
                                 <p className="art__div--p">Versión online del clásico juego del ahorcado. SPA desarrollada con React mediante pair programming. Dos modalidades de juego. </p>
                                 <ul className="art__div--ul">
-                                    <li><img className="art__div--ul-img" src="../src/images/html-48.png" alt="logo html" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/css-48.png" alt="logo css" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/sass-48.png" alt="logo sass" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/javascript-48.png" alt="logo javascript" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/react-48.png" alt="logo react" /></li>
+                                    <li><img className="art__div--ul-img" src={html} alt="logo html" /></li>
+                                    <li><img className="art__div--ul-img" src={css} alt="logo css" /></li>
+                                    <li><img className="art__div--ul-img" src={sass} alt="logo sass" /></li>
+                                    <li><img className="art__div--ul-img" src={javascript} alt="logo javascript" /></li>
+                                    <li><img className="art__div--ul-img" src={react} alt="logo react" /></li>
                                 </ul>
                             </div>
                         </div>
@@ -162,11 +169,11 @@ function MainProjects() {
                                 <h4 className="art__div--h4">Visitar Demo</h4>
                                 <p className="art__div--p">Buscador de peliculas donde Owen Wilson dice WOW! Filtrado por tÍtulo y año. Uso del LocalStorage. SPA desarrollada con React. </p>
                                 <ul className="art__div--ul">
-                                    <li><img className="art__div--ul-img" src="../src/images/html-48.png" alt="logo html" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/css-48.png" alt="logo css" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/sass-48.png" alt="logo sass" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/javascript-48.png" alt="logo javascript" /></li>
-                                    <li><img className="art__div--ul-img" src="../src/images/react-48.png" alt="logo react" /></li>
+                                    <li><img className="art__div--ul-img" src={html} alt="logo html" /></li>
+                                    <li><img className="art__div--ul-img" src={css} alt="logo css" /></li>
+                                    <li><img className="art__div--ul-img" src={sass} alt="logo sass" /></li>
+                                    <li><img className="art__div--ul-img" src={javascript} alt="logo javascript" /></li>
+                                    <li><img className="art__div--ul-img" src={react} alt="logo react" /></li>
                                 </ul>
                             </div>
                         </div>
