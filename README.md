@@ -1,6 +1,6 @@
 # Hola, soy mteresacastro 👋
 
-Este es mi portfolio de presentación desarrollado con React, donde podréis encontrar una breve descripción sobre mí, mis datos de contacto, los proyectos en los que he trabajado junto con un link para ver la Demo y su link al repositorio de Github. También encontgraréis un pequeño formulario de contacto. He puesto en ello toda mi ilusión y esfuerzo, y sigo trabajando en pequeñas mejoras.
+Este es mi portfolio de presentación desarrollado con React, donde podréis encontrar una breve descripción sobre mí, mis datos de contacto, los proyectos en los que he trabajado junto con un link para ver la Demo y su link al repositorio de Github. También encontraréis un pequeño formulario de contacto. He puesto en ello toda mi ilusión y esfuerzo, y sigo trabajando en pequeñas mejoras.
 
 ## Sobre mí
 
