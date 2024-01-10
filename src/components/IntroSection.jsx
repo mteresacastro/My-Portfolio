@@ -2,6 +2,7 @@
 import '../styles/introSection.scss';
 
 import photo from '../../src/assets/mifoto2.png';
+import cv from '../../src/assets/CV_Teresa_Castro_G.pdf';
 
 function IntroSection() {
 
@@ -12,7 +13,7 @@ function IntroSection() {
                 <h1 className="mainIntro__data--h1">María Teresa Castro González</h1>
                 <h2 className="mainIntro__data--h2">Front-End Developer</h2>
                 <p className="mainIntro__data--desc">Enamorada del mundo Tech, apasionada por el desarrollo web y la creación de interfaces de usuario atractivas y fáciles de usar. Disfruto con el trabajo en equipo para crear <span className="mainIntro__data--desc-span">soluciones innovadoras</span> y <span className="mainIntro__data--desc-span">efectivas</span> . Actúo de manera consecuente, soy <span className="mainIntro__data--desc-span">incansable</span> y no me dan miedo los retos.</p>
-                <a href="../src/assets/CV_Teresa_Castro_G.pdf" download="MTeresaCastro-CV.pdf">
+                <a href={cv} download="MTeresaCastro-CV.pdf">
                     <button className="btn">Descargar CV</button>
                 </a>
                 <div className='mainIntro__data--contactInfo'>
