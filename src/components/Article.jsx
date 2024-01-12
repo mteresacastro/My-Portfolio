@@ -29,7 +29,7 @@ function Article({ demoLink, imageSrc, description, logos, codeLink, title }) {
             <a className="a" href={codeLink} target='_blank' rel='noreferrer'>
                 <div className="mainProjects__art--titleGit">
                     <i className="mainProjects__art--titleGit-git fa-brands fa-github"></i>
-                    <h4 className="mainProjects__art--titleGit-title">{title} - Ver Código</h4>
+                    <h4 className="mainProjects__art--titleGit-title">{title} - Ver código</h4>
                 </div>
             </a>
         </a>
