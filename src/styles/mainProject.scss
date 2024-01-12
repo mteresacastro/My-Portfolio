@@ -92,6 +92,9 @@
     gap: 2rem;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: row;
+    order: reversed;
+    
 }
 .link-code{
     width: 3rem;

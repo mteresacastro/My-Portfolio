@@ -1,4 +1,5 @@
 import '../styles/mainProject.scss';
+import Article from './Article';
 import school from '../../src/images/backtoschool.png'
 import team from '../../src/images/teamPresentation.png'
 import spotify from '../../src/images/spotify.png'
@@ -16,6 +17,14 @@ import scrum from '../../src/images/scrum-48.png'
 
 
 function MainProjects() {
+    const logos = [
+        { src: '../../src/images/html-48.png', alt: 'logo html', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!'] },
+        { src: '../../src/images/css-48.png', alt: 'logo css', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!'] },
+        { src: '../../src/images/sass-48.png', alt: 'logo sass', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!'] },
+        { src: '../../src/images/javascript-48.png', alt: 'logo javascript', project: ['Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!'] },
+        { src: '../../src/images/react-48.png', alt: 'logo react', project: ['Juego del ahorcado', 'Owen Wilson`s WOW!'] },
+        { src: '../../src/images/scrum-48.png', alt: 'logo scrum', project: ['Team Presentation', 'Profile Cards'] }
+    ];
 
     return (
         <section className="mainProjects">
@@ -23,28 +32,8 @@ function MainProjects() {
             <h3 className="mainProjects__h3">&lt;h3&gt; Cada línea de código te acerca un paso más a tu <span className="mainProjects__h3--span">meta</span> &lt;/h3&gt;</h3>
 
             <div className="mainProject__div box">
-                <a className="link" href="https://mteresacastro.github.io/Static-Website-BackToSchool-HTML-CSS/" target='_blank' rel='noreferrer'>
-                    <article className="mainProjects__art">
-                        <div className="mainProjects__art--container">
-                            <img className="mainProjects__art--container-img" src={school} alt="" />
-                            <div className="mainProjects__art--container-div">
-                                <h4 className="art__div--h4">Visitar Demo</h4>
-                                <p className="art__div--p">Web estática desarrollada según un diseño de Zeplin preestablecido. Diseño responsive.</p>
-                                <ul className="art__div--ul">
-                                    <li><img className="art__div--ul-img" src={html} alt="logo html" /></li>
-                                    <li><img className="art__div--ul-img" src={css} alt="logo css" /></li>
-                                    <li><img className="art__div--ul-img" src={sass} alt="logo sass" /></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </article>
-                    <a className="a" href="https://github.com/mteresacastro/Static-Website-BackToSchool-HTML-CSS" target='_blank' rel='noreferrer'>
-                        <div className="mainProjects__art--titleGit">
-                            <i className="mainProjects__art--titleGit-git fa-brands fa-github"></i>
-                            <h4 className="mainProjects__art--titleGit-title">Back to school - Ver código</h4>
-                        </div>
-                    </a>
-                </a>
+                <Article demoLink={"https://mteresacastro.github.io/Static-Website-BackToSchool-HTML-CSS/"} imageSrc={school} description={'Web estática desarrollada según un diseño de Zeplin preestablecido. Diseño responsive.'} logos={logos} codeLink={"https://github.com/mteresacastro/Static-Website-BackToSchool-HTML-CSS"} title={'Back to school'} />
+                
                 <a href="https://mteresacastro.github.io/Static-Website-Team-Presentation-HTML-CSS/" target='_blank' rel='noreferrer'>
                     <article className="mainProjects__art">
                         <div className="mainProjects__art--container">
