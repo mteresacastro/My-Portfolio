@@ -8,15 +8,22 @@ import rockPaperScissors from '../../src/images/rockPaperScissors.png'
 import hangmanGame from '../../src/images/hangmanGame.png'
 import owen from '../../src/images/owen.png'
 
+import html from '../../src/images/html-48.png'
+import css from '../../src/images/css-48.png'
+import sass from '../../src/images/sass-48.png'
+import javascript from '../../src/images/javascript-48.png'
+import react from '../../src/images/react-48.png'
+import scrum from '../../src/images/scrum-48.png'
+
 
 function MainProjects() {
     const logos = [
-        { src: '../../src/images/html-48.png', alt: 'logo html', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!'] },
-        { src: '../../src/images/css-48.png', alt: 'logo css', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!'] },
-        { src: '../../src/images/sass-48.png', alt: 'logo sass', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!'] },
-        { src: '../../src/images/javascript-48.png', alt: 'logo javascript', project: ['Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!'] },
-        { src: '../../src/images/react-48.png', alt: 'logo react', project: ['Juego del ahorcado', 'Owen Wilson`s WOW!'] },
-        { src: '../../src/images/scrum-48.png', alt: 'logo scrum', project: ['Team Presentation', 'Profile Cards'] }
+        { src: { html }, alt: 'logo html', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!'] },
+        { src: { css }, alt: 'logo css', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!'] },
+        { src: { sass }, alt: 'logo sass', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!'] },
+        { src: { javascript }, alt: 'logo javascript', project: ['Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!'] },
+        { src: { react }, alt: 'logo react', project: ['Juego del ahorcado', 'Owen Wilson`s WOW!'] },
+        { src: { scrum }, alt: 'logo scrum', project: ['Team Presentation', 'Profile Cards'] }
     ];
 
     return (
