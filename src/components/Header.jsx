@@ -8,7 +8,7 @@ function Header({ toggleMenu, menuShow }) {
 
     return (
         <header className="header">
-            <img className="header__logo" src={milogo} alt="Logo Iniciales MTCG" />
+            <a className="link" href="#mainIntro"><img className="header__logo" src={milogo} alt="Logo Iniciales MTCG" /></a>
             <div className="header__burguer" onClick={toggleMenu}><i className="header__burguer--i fa-solid fa-bars"></i></div>
             <nav className="header__nav">
                 <ul className={menuShow ? 'show' : 'hidden'}>
