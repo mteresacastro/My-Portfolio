@@ -133,11 +133,11 @@ function MainProjects() {
             <h3 className="mainProjects__h3">&lt;h3&gt; Cada línea de código te acerca un paso más a tu <span className="mainProjects__h3--span">meta</span> &lt;/h3&gt;</h3>
 
             <div className="mainProject__div filter">
-                <button className="btn" onClick={() => handleFiltroClick("Todos")}>Todos</button>
-                <button className="btn" onClick={() => handleFiltroClick("Vue.js")}>Vue.js</button>
-                <button className="btn" onClick={() => handleFiltroClick("React.js")}>React.js</button>
-                <button className="btn" onClick={() => handleFiltroClick("Javascript")}>Javascript</button>
-                <button className="btn" onClick={() => handleFiltroClick("Maquetación")}>Maquetación</button>
+                <button className={`btn ${filtro === "Todos" ? "active" : ""}`} onClick={() => handleFiltroClick("Todos")}>Todos</button>
+                <button className={`btn ${filtro === "Vue.js" ? "active" : ""}`} onClick={() => handleFiltroClick("Vue.js")}>Vue.js</button>
+                <button className={`btn ${filtro === "React.js" ? "active" : ""}`} onClick={() => handleFiltroClick("React.js")}>React.js</button>
+                <button className={`btn ${filtro === "Javascript" ? "active" : ""}`} onClick={() => handleFiltroClick("Javascript")}>Javascript</button>
+                <button className={`btn ${filtro === "Maquetación" ? "active" : ""}`} onClick={() => handleFiltroClick("Maquetación")}>Maquetación</button>
             </div>
 
             <div className="mainProject__div box">
