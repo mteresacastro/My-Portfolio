@@ -8,6 +8,7 @@ import rockPaperScissors from '../../src/images/rockPaperScissors.png'
 import hangmanGame from '../../src/images/hangmanGame.png'
 import owen from '../../src/images/owen.png'
 import guitarSI from '../../src/images/guitarSI.png'
+import adminVet from '../../src/images/AdminPacientes.png'
 
 import html from '../../src/images/html-48.png'
 import css from '../../src/images/css-48.png'
@@ -20,13 +21,13 @@ import vue from '../../src/images/vue-48.png'
 
 function MainProjects() {
     const logos = [
-        { src: { html }, alt: 'logo html', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce'] },
-        { src: { css }, alt: 'logo css', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce'] },
+        { src: { html }, alt: 'logo html', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce', 'Gestor de pacientes'] },
+        { src: { css }, alt: 'logo css', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce', 'Gestor de pacientes'] },
         { src: { sass }, alt: 'logo sass', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!'] },
-        { src: { javascript }, alt: 'logo javascript', project: ['Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce'] },
+        { src: { javascript }, alt: 'logo javascript', project: ['Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce', 'Gestor de pacientes'] },
         { src: { react }, alt: 'logo react', project: ['Juego del ahorcado', 'Owen Wilson`s WOW!'] },
         { src: { scrum }, alt: 'logo scrum', project: ['Team Presentation', 'Profile Cards'] },
-        { src: { vue }, alt: 'logo react', project: ['GuitarSI e-commerce']}
+        { src: { vue }, alt: 'logo react', project: ['GuitarSI e-commerce', 'Gestor de pacientes'] }
     ];
 
     return (
@@ -34,10 +35,20 @@ function MainProjects() {
             <h2 className="mainProjects__h2">Proyectos</h2>
             <h3 className="mainProjects__h3">&lt;h3&gt; Cada línea de código te acerca un paso más a tu <span className="mainProjects__h3--span">meta</span> &lt;/h3&gt;</h3>
 
+            <div className="mainProject__div filter">
+                <button className="btn">Todos</button>
+                <button className="btn">Vue.js</button>
+                <button className="btn">React.js</button>
+                <button className="btn">Javascript</button>
+                <button className="btn">Maquetación</button>
+            </div>
+
             <div className="mainProject__div box">
 
+                <Article demoLink={"https://mteresacastro.github.io/AdminPacientes-Vue/"} imageSrc={adminVet} description={'Administración de pacientes de clínica veterinaria. Registro, edición y eliminación de pacientes. Desarrollado con Vue.js'} logos={logos} codeLink={"https://github.com/mteresacastro/AdminPacientes-Vue"} title={'Gestor de pacientes'} />
+
                 <Article demoLink={"https://mteresacastro.github.io/guitarSI-vue/"} imageSrc={guitarSI} description={'E-commerce de guitarras desarrollado con Vue.js utilizando la Composition API.'} logos={logos} codeLink={"https://github.com/mteresacastro/guitarSI-vue"} title={'GuitarSI e-commerce'} />
-            
+
                 <Article demoLink={"https://mteresacastro.github.io/Static-Website-BackToSchool-HTML-CSS/"} imageSrc={school} description={'Web estática desarrollada según un diseño de Zeplin preestablecido. Diseño responsive.'} logos={logos} codeLink={"https://github.com/mteresacastro/Static-Website-BackToSchool-HTML-CSS"} title={'Back to school'} />
 
                 <Article demoLink={"https://mteresacastro.github.io/Static-Website-Team-Presentation-HTML-CSS/"} imageSrc={team} description={'Web estática desarrollada en equipo según metodología Agile. Diseño responsive.'} logos={logos} codeLink={"https://github.com/mteresacastro/Static-Website-Team-Presentation-HTML-CSS"} title={'Team Presentation'} />

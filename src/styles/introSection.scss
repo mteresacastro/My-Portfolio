@@ -6,6 +6,27 @@
     margin: 3.5rem 2rem;
     &__img{
         width: 70%;
+        right: 0;
+        bottom: 0;
+        animation-duration: 1.5s;
+        animation-delay: 0s;
+        animation-timing-function: ease-in-out;
+        animation-name: animarImagen;
+        z-index: 10;
+        @keyframes animarImagen {
+            0% {
+              opacity: 0;
+              transform: translateX(30rem);
+            }
+            50% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+              transform: translateX(0);
+            }
+        }
+       
     }
     &__data{
 
