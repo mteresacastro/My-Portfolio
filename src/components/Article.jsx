@@ -40,13 +40,13 @@ function Article({ demoLink, imageSrc, description, logos, codeLink, title }) {
     );
 }
 
-// Article.propTypes = {
-//     demoLink: PropTypes.string.isRequired,
-//     imageSrc: PropTypes.string.isRequired,
-//     description: PropTypes.string.isRequired,
-//     logos: PropTypes.array.isRequired,
-//     codeLink: PropTypes.string.isRequired,
-//     title: PropTypes.string.isRequired,
-// };
+Article.propTypes = {
+    demoLink: PropTypes.string.isRequired,
+    imageSrc: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    logos: PropTypes.array.isRequired,
+    codeLink: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+};
 
 export default Article;
