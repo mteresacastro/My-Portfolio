@@ -107,8 +107,15 @@ function MainProjects() {
 
     const [filtro, setFiltro] = useState("Todos");
 
+    const [animar, setAnimar] = useState(false);
+
+    setTimeout(() => {
+        setAnimar(false); // Restablecer el estado después de 3 segundos
+    }, 1000);
+
     const handleFiltroClick = (tecnologia) => {
         setFiltro(tecnologia);
+        setAnimar(true);
     };
 
     const articulosFiltrados = articulos.filter((articulo) => {
@@ -137,7 +144,7 @@ function MainProjects() {
 
                 {articulosFiltrados.map((articulo) => (
 
-                    <Article key={articulo.title} demoLink={articulo.demoLink} imageSrc={articulo.imageSrc} description={articulo.description} logos={logos} codeLink={articulo.codeLink} title={articulo.title} technology={articulo.technology}
+                    <Article key={articulo.title} demoLink={articulo.demoLink} imageSrc={articulo.imageSrc} description={articulo.description} logos={logos} codeLink={articulo.codeLink} title={articulo.title} technology={articulo.technology} animar={animar}
                     />
                 ))}
 

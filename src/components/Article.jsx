@@ -1,7 +1,7 @@
 import '../styles/mainProject.scss';
 import PropTypes from 'prop-types';
 
-function Article({ demoLink, imageSrc, description, logos, codeLink, title }) {
+function Article({ demoLink, imageSrc, description, logos, codeLink, title, animar }) {
     const filteredLogos = logos.filter((logo) => {
         return logo.project.includes(title);
     });
@@ -14,7 +14,7 @@ function Article({ demoLink, imageSrc, description, logos, codeLink, title }) {
     ));
 
     return (
-        <div className="column">
+        <div className={`column animate__animated ${animar ? 'animate__backInUp' : ''}`}>
             <a className="link" href={demoLink} target='_blank' rel='noreferrer'>
                 <article className="mainProjects__art">
                     <div className="mainProjects__art--container">
@@ -47,6 +47,7 @@ Article.propTypes = {
     logos: PropTypes.array.isRequired,
     codeLink: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
+    animar: PropTypes.bool.isRequired,
 };
 
 export default Article;
