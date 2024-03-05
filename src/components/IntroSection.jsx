@@ -12,7 +12,8 @@ function IntroSection() {
             <div className="mainIntro__data">
                 <h1 className="mainIntro__data--h1">María Teresa Castro González</h1>
                 <h2 className="mainIntro__data--h2">Full Stack Developer</h2>
-                <p className="mainIntro__data--desc">Enamorada del mundo Tech, apasionada por el desarrollo web y la creación de interfaces de usuario atractivas y fáciles de usar. Disfruto con el trabajo en equipo para crear <span className="mainIntro__data--desc-span">soluciones innovadoras</span> y <span className="mainIntro__data--desc-span">efectivas</span> . Actúo de manera consecuente, soy <span className="mainIntro__data--desc-span">incansable</span> y no me dan miedo los retos.</p>
+                <p className="mainIntro__data--desc">Enamorada del mundo Tech, apasionada por el desarrollo web y la creación de interfaces de usuario atractivas y fáciles de usar.</p>
+                <p className="mainIntro__data--desc">Disfruto con el trabajo en equipo para crear <span className="mainIntro__data--desc-span">soluciones innovadoras</span> y <span className="mainIntro__data--desc-span">efectivas</span> . Actúo de manera consecuente, soy <span className="mainIntro__data--desc-span">incansable</span> y no me dan miedo los retos.</p>
                 <a href={cv} download="MTeresaCastro-CV.pdf" aria-label='Download Maria Teresa Castro CV'>
                     <button>Descargar CV</button>
                 </a>
