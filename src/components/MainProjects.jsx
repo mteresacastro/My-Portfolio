@@ -10,6 +10,7 @@ import owen from '../../src/images/owen.png'
 import guitarSI from '../../src/images/guitarSI.png'
 import adminVet from '../../src/images/AdminPacientes.png'
 import { useState } from 'react'
+import 'animate.css';
 
 import html from '../../src/images/html-48.png'
 import css from '../../src/images/css-48.png'
