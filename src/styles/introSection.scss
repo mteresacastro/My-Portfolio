@@ -6,6 +6,7 @@
     margin: 3.5rem 2rem;
     &__img{
         width: 70%;
+        height: auto;
         right: 0;
         bottom: 0;
         animation-duration: 1.5s;
@@ -45,7 +46,8 @@
             line-height: 2;
             margin: 3rem;
             &-span{
-                color: #cc39b4;
+                color: #8A005D;
+                font-weight: 700;
             }
         }
         &--contactInfo{
