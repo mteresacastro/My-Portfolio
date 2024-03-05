@@ -15,7 +15,7 @@ function Article({ demoLink, imageSrc, description, logos, codeLink, title, anim
 
     return (
         <div className={`column animate__animated ${animar ? 'animate__backInUp' : ''}`}>
-            <a className="link" href={demoLink} target='_blank' rel='noreferrer'>
+            <a className="link" href={demoLink} target='_blank' rel='noreferrer' aria-label={`Visit this project: ${title}`}>
                 <article className="mainProjects__art">
                     <div className="mainProjects__art--container">
                         <img className="mainProjects__art--container-img" src={imageSrc} alt="" />
@@ -29,7 +29,7 @@ function Article({ demoLink, imageSrc, description, logos, codeLink, title, anim
                     </div>
                 </article>
             </a>
-            <a className="a" href={codeLink} target='_blank' rel='noreferrer'>
+            <a className="a" href={codeLink} target='_blank' rel='noreferrer' aria-label={`Visit the code of this project: ${title}`}>
                 <div className="mainProjects__art--titleGit">
                     <i className="mainProjects__art--titleGit-git fa-brands fa-github"></i>
                     <h4 className="mainProjects__art--titleGit-title">{title} - Ver código</h4>

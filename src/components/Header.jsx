@@ -13,19 +13,19 @@ function Header({ toggleMenu, menuShow }) {
             <nav className="header__nav">
                 <ul className={menuShow ? 'show' : 'hidden'}>
                     <li>
-                        <a className="link" href="#mainIntro">Inicio</a>
+                        <a className="link" href="#mainIntro" aria-label='Go to intro section'>Inicio</a>
                     </li>
                     <li>
-                        <a className="link" href="#mainProjects">Proyectos</a>
+                        <a className="link" href="#mainProjects" aria-label='Go to projects section'>Proyectos</a>
                     </li>
                     <li>
-                        <a className="link" href="#mainSkills">Habilidades</a>
+                        <a className="link" href="#mainSkills" aria-label='Go to skills section'>Habilidades</a>
                     </li>
                     <li>
-                        <a className="link" href="#mainAboutMe">Sobre mí</a>
+                        <a className="link" href="#mainAboutMe" aria-label='Go to About me section'>Sobre mí</a>
                     </li>
                     <li>
-                        <a className="link" href="#mainContact">Contacto</a>
+                        <a className="link" href="#mainContact" aria-label='Go to Contact section'>Contacto</a>
                     </li>
                 </ul>
             </nav>
