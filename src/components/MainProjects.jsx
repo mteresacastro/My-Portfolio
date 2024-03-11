@@ -1,14 +1,14 @@
 import '../styles/mainProject.scss';
 import Article from './Article';
-import school from '../../src/images/backtoschool.png'
-import team from '../../src/images/teamPresentation.png'
-import spotify from '../../src/images/spotify.png'
-import profileCards from '../../src/images/profileCards.png'
-import rockPaperScissors from '../../src/images/rockPaperScissors.png'
-import hangmanGame from '../../src/images/hangmanGame.png'
-import owen from '../../src/images/owen.png'
-import guitarSI from '../../src/images/guitarSI.png'
-import adminVet from '../../src/images/AdminPacientes.png'
+import school from '../../src/images/backtoschool.webp'
+import team from '../../src/images/teamPresentation.webp'
+import spotify from '../../src/images/spotify.webp'
+import profileCards from '../../src/images/profileCards.webp'
+import rockPaperScissors from '../../src/images/rockPaperScissors.webp'
+import hangmanGame from '../../src/images/hangmanGame.webp'
+import owen from '../../src/images/owen.webp'
+import guitarSI from '../../src/images/guitarSI.webp'
+import adminVet from '../../src/images/AdminPacientes.webp'
 import { useState } from 'react'
 import 'animate.css';
 

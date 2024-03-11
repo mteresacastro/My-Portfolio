@@ -1,7 +1,7 @@
 //import '../styles/App.scss';
 import '../styles/introSection.scss';
 
-import photo from '../../src/assets/mifoto2.png';
+import photo from '../../src/assets/mifoto2.webp';
 import cv from '../../src/assets/CV_Teresa_Castro_G.pdf';
 
 function IntroSection() {
