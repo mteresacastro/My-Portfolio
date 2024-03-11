@@ -1,14 +1,14 @@
 //import '../styles/App.scss';
 import '../styles/introSection.scss';
 
-import photo from '../../src/assets/mifoto2.webp';
+import photo from '../../src/images/mifoto2.webp';
 import cv from '../../src/assets/CV_Teresa_Castro_G.pdf';
 
 function IntroSection() {
 
     return (
         <section className="mainIntro" id="mainIntro">
-            <img className="mainIntro__img" src={photo} alt="Maria Teresa Castro Photo" />
+            <img className="mainIntro__img" fetchpriority="high" src={photo} alt="Maria Teresa Castro Photo" />
             <div className="mainIntro__data">
                 <h1 className="mainIntro__data--h1">María Teresa Castro González</h1>
                 <h2 className="mainIntro__data--h2">Full Stack Developer</h2>

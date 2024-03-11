@@ -5,7 +5,7 @@
     align-items: center;
     margin: 3.5rem 2rem;
     &__img{
-        width: 70%;
+        width: 25rem;
         height: auto;
         right: 0;
         bottom: 0;
@@ -14,6 +14,9 @@
         animation-timing-function: ease-in-out;
         animation-name: animarImagen;
         z-index: 10;
+        @media all and (min-width: 768px){
+            width: 40rem;
+        }
         @keyframes animarImagen {
             0% {
               opacity: 0;
