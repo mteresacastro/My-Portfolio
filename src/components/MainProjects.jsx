@@ -9,6 +9,8 @@ import hangmanGame from '../../src/images/hangmanGame.webp'
 import owen from '../../src/images/owen.webp'
 import guitarSI from '../../src/images/guitarSI.webp'
 import adminVet from '../../src/images/AdminPacientes.webp'
+import cripto from '../../src/images/cripto.webp'
+
 import { useState } from 'react'
 import 'animate.css';
 
@@ -23,16 +25,24 @@ import vue from '../../src/images/vue-48.png'
 
 function MainProjects() {
     const logos = [
-        { src: { html }, alt: 'logo html', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce', 'Gestor de pacientes'] },
-        { src: { css }, alt: 'logo css', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce', 'Gestor de pacientes'] },
+        { src: { html }, alt: 'logo html', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce', 'Gestor de pacientes', 'Cotiza criptomonedas'] },
+        { src: { css }, alt: 'logo css', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce', 'Gestor de pacientes', 'Cotiza criptomonedas'] },
         { src: { sass }, alt: 'logo sass', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!'] },
-        { src: { javascript }, alt: 'logo javascript', project: ['Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce', 'Gestor de pacientes'] },
+        { src: { javascript }, alt: 'logo javascript', project: ['Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce', 'Gestor de pacientes', 'Cotiza criptomonedas'] },
         { src: { react }, alt: 'logo react', project: ['Juego del ahorcado', 'Owen Wilson`s WOW!'] },
         { src: { scrum }, alt: 'logo scrum', project: ['Team Presentation', 'Profile Cards'] },
-        { src: { vue }, alt: 'logo react', project: ['GuitarSI e-commerce', 'Gestor de pacientes'] }
+        { src: { vue }, alt: 'logo react', project: ['GuitarSI e-commerce', 'Gestor de pacientes', 'Cotiza criptomonedas'] }
     ];
 
     const articulos = [{
+        demoLink: "https://mteresacastro.github.io/cripto-vue/",
+        imageSrc: cripto,
+        description: 'Cotizador de criptomonedas en tiempo real. Uso de composable y API externa. Desarrollada con Vue.js.',
+        logos: { logos },
+        codeLink: "https://github.com/mteresacastro/cripto-vue",
+        title: 'Cotiza criptomonedas',
+        technology: 'Vue.js'
+    }, {
         demoLink: "https://mteresacastro.github.io/AdminPacientes-Vue/",
         imageSrc: adminVet,
         description: 'Administración de pacientes de clínica veterinaria. Registro, edición y eliminación de pacientes. Desarrollado con Vue.js',
@@ -111,7 +121,7 @@ function MainProjects() {
     const [animar, setAnimar] = useState(false);
 
     setTimeout(() => {
-        setAnimar(false); // Restablecer el estado después de 3 segundos
+        setAnimar(false); // Restablecer el estado después de 1 segundos
     }, 1000);
 
     const handleFiltroClick = (tecnologia) => {
