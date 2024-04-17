@@ -15,6 +15,7 @@ import github from '../../src/images/github-48.png'
 import scrum from '../../src/images/scrum-48.png'
 import figma from '../../src/images/figma-96.png'
 import mongo from '../../src/images/mongodb-96.png'
+import tailwind from '../../src/images/tailwind-96.png'
 
 function MainSkills() {
 
@@ -26,6 +27,7 @@ function MainSkills() {
                 <img className="mainSkills__box--img" src={html} alt="html logo" />
                 <img className="mainSkills__box--img" src={css} alt="css logo" />
                 <img className="mainSkills__box--img" src={sass} alt="sass logo" />
+                <img className="mainSkills__box--img" src={tailwind} alt="tailwind logo" />
                 <img className="mainSkills__box--img" src={javascript} alt="javascript logo" />
                 <img className="mainSkills__box--img" src={react} alt="react logo" />
                 <img className="mainSkills__box--img" src={vue} alt="vue js logo" />
