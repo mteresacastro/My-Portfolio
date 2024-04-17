@@ -14,6 +14,7 @@ import git from '../../src/images/git-48.png'
 import github from '../../src/images/github-48.png'
 import scrum from '../../src/images/scrum-48.png'
 import figma from '../../src/images/figma-96.png'
+import mongo from '../../src/images/mongodb-96.png'
 
 function MainSkills() {
 
@@ -32,6 +33,7 @@ function MainSkills() {
                 <img className="mainSkills__box--img" src={nodejs} alt="node js logo" />
                 <img className="mainSkills__box--img" src={expressjs} alt="express js logo" />
                 <img className="mainSkills__box--img" src={mysql} alt="mysql logo" />
+                <img className="mainSkills__box--img" src={mongo} alt="mongodb logo" />
                 <img className="mainSkills__box--img" src={git} alt="git logo" />
                 <img className="mainSkills__box--img" src={github} alt="github logo" />
                 <img className="mainSkills__box--img" src={figma} alt="figma logo" />
