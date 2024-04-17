@@ -13,6 +13,7 @@ import vite from '../../src/images/vite-48.png'
 import git from '../../src/images/git-48.png'
 import github from '../../src/images/github-48.png'
 import scrum from '../../src/images/scrum-48.png'
+import figma from '../../src/images/figma-96.png'
 
 function MainSkills() {
 
@@ -33,6 +34,7 @@ function MainSkills() {
                 <img className="mainSkills__box--img" src={mysql} alt="mysql logo" />
                 <img className="mainSkills__box--img" src={git} alt="git logo" />
                 <img className="mainSkills__box--img" src={github} alt="github logo" />
+                <img className="mainSkills__box--img" src={figma} alt="figma logo" />
                 <img className="mainSkills__box--img" src={scrum} alt="scrum logo" id="mainAboutMe" />
             </div>
         </section>
