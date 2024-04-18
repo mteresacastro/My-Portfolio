@@ -24,22 +24,22 @@ function MainSkills() {
             <h2 className="mainSkills__h2">Habilidades</h2>
             <h3 className="mainSkills__h3">Más centrada en el Front, pero siempre con una mirada al Back</h3>
             <div className="mainSkills__box">
-                <img className="mainSkills__box--img" src={html} alt="html logo" />
-                <img className="mainSkills__box--img" src={css} alt="css logo" />
-                <img className="mainSkills__box--img" src={sass} alt="sass logo" />
-                <img className="mainSkills__box--img" src={tailwind} alt="tailwind logo" />
-                <img className="mainSkills__box--img" src={javascript} alt="javascript logo" />
-                <img className="mainSkills__box--img" src={react} alt="react logo" />
-                <img className="mainSkills__box--img" src={vue} alt="vue js logo" />
-                <img className="mainSkills__box--img" src={vite} alt="vite logo " />
-                <img className="mainSkills__box--img" src={nodejs} alt="node js logo" />
-                <img className="mainSkills__box--img" src={expressjs} alt="express js logo" />
-                <img className="mainSkills__box--img" src={mysql} alt="mysql logo" />
-                <img className="mainSkills__box--img" src={mongo} alt="mongodb logo" />
-                <img className="mainSkills__box--img" src={git} alt="git logo" />
-                <img className="mainSkills__box--img" src={github} alt="github logo" />
-                <img className="mainSkills__box--img" src={figma} alt="figma logo" />
-                <img className="mainSkills__box--img" src={scrum} alt="scrum logo" id="mainAboutMe" />
+                <img className="mainSkills__box--img" src={html} alt="html logo" title="HTML5" />
+                <img className="mainSkills__box--img" src={css} alt="css logo" title="CSS3" />
+                <img className="mainSkills__box--img" src={sass} alt="sass logo" title="SASS" />
+                <img className="mainSkills__box--img" src={tailwind} alt="tailwind logo" title="Tailwind" />
+                <img className="mainSkills__box--img" src={javascript} alt="javascript logo" title="JavaScript" />
+                <img className="mainSkills__box--img" src={react} alt="react logo" title="ReactJS" />
+                <img className="mainSkills__box--img" src={vue} alt="vue js logo" title="VueJS" />
+                <img className="mainSkills__box--img" src={vite} alt="vite logo " title="Vite" />
+                <img className="mainSkills__box--img" src={nodejs} alt="node js logo" title="NodeJS" />
+                <img className="mainSkills__box--img" src={expressjs} alt="express js logo" title="ExpressJS" />
+                <img className="mainSkills__box--img" src={mysql} alt="mysql logo" title="MySQL" />
+                <img className="mainSkills__box--img" src={mongo} alt="mongodb logo" title="MongoDB" />
+                <img className="mainSkills__box--img" src={git} alt="git logo" title="Git" />
+                <img className="mainSkills__box--img" src={github} alt="github logo" title="GitHub" />
+                <img className="mainSkills__box--img" src={figma} alt="figma logo" title="Figma" />
+                <img className="mainSkills__box--img" src={scrum} alt="scrum logo" id="mainAboutMe" title="Scrum" />
             </div>
         </section>
     );
