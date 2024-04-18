@@ -13,7 +13,7 @@ function Footer() {
                 <a href="https://www.linkedin.com/in/mteresacastro" target='_blank' rel="noreferrer" aria-label='Visit MTCG Linkedin'><i className="fa-brands fa-linkedin"></i></a>
                 <a href="mailto:m.teresacastrogonzalez@gmail.com" target='_blank' rel="noreferrer" aria-label='Send an email to MTCG'><i className="fa-solid fa-square-envelope"></i></a>
             </div>
-            <p className='footer__by'>Developed by <span className='footer__by--span'>mteresacastro</span></p>
+            <p className='footer__by'>Developed by <span className='footer__by--span'>mteresacastro <button id="present">✨</button></span></p>
         </footer>
     );
 }
