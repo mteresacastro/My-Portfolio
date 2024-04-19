@@ -5,7 +5,7 @@ import photo from '../../src/images/mifoto2.webp';
 import cv from '../../src/assets/CV_Teresa_Castro_G.pdf';
 
 function IntroSection() {
-
+    console.log("Si tienes alguna pregunta, no dudes en contactarme! Te ayudaré en lo que pueda 🌸")
     return (
         <section className="mainIntro" id="mainIntro">
             <img className="mainIntro__img" src={photo} alt="Maria Teresa Castro Photo" />

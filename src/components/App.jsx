@@ -7,6 +7,7 @@ import MainContact from './MainContact';
 import MainAboutMe from './MainAboutMe';
 import MainSkills from './MainSkills';
 import MainProjects from './MainProjects';
+import ThanksMessage from './ThanksMessage';
 
 
 function App() {
@@ -16,9 +17,16 @@ function App() {
     setMenuShow(!menuShow);
   }
 
+  const [flowerShow, setFlowerShow] = useState(false);
+
+  function toggleFlower() {
+    setFlowerShow(!flowerShow);
+  }
+
   return (
     <div id="mainIntro">
-      <Header toggleMenu={toggleMenu} menuShow={menuShow} />
+      <ThanksMessage flowerShow={flowerShow} />
+      <Header toggleMenu={toggleMenu} menuShow={menuShow} toggleFlower={toggleFlower} />
       <main>
         <IntroSection />
         <MainProjects />
@@ -26,7 +34,7 @@ function App() {
         <MainAboutMe />
         <MainContact />
       </main>
-      <Footer />
+      <Footer toggleFlower={toggleFlower} />
     </div >
   );
 }

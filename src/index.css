@@ -12,6 +12,7 @@ a {
   color:rgba(43, 38, 38, 0.87);
   text-decoration: inherit;
 }
+
 a:hover {
   color: #dd54d6;
   text-decoration: none;
@@ -41,6 +42,8 @@ button {
   color:#0B0508;
   background-color: #E26ADB;
   cursor: pointer;
+  z-index: 999;
+  position: relative;
 }
 button:hover {
   border: 2px inset #f8c4d7;
@@ -50,3 +53,4 @@ button:hover {
 ul{
   list-style: none;
 }
+

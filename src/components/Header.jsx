@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import milogo from '../../src/assets/miLogoMorado.png'
 
-function Header({ toggleMenu, menuShow }) {
+function Header({ toggleMenu, menuShow, toggleFlower }) {
 
     return (
         <header className="header">
@@ -27,6 +27,9 @@ function Header({ toggleMenu, menuShow }) {
                     <li>
                         <a className="link" href="#mainContact" aria-label='Go to Contact section'>Contacto</a>
                     </li>
+                    <li>
+                        <button onClick={toggleFlower} id="present">🌸</button>
+                    </li>
                 </ul>
             </nav>
         </header >
@@ -35,6 +38,7 @@ function Header({ toggleMenu, menuShow }) {
 
 Header.propTypes = {
     toggleMenu: PropTypes.func.isRequired,
+    toggleFlower: PropTypes.func.isRequired,
     menuShow: PropTypes.bool.isRequired
 };
 

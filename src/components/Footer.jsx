@@ -1,8 +1,10 @@
 import '../styles/footer.scss';
+import PropTypes from 'prop-types';
 
 import milogo from '../../src/assets/miLogo.png'
 
-function Footer() {
+
+function Footer({ toggleFlower }) {
 
     return (
         <footer className="footer">
@@ -13,10 +15,18 @@ function Footer() {
                 <a href="https://www.linkedin.com/in/mteresacastro" target='_blank' rel="noreferrer" aria-label='Visit MTCG Linkedin'><i className="fa-brands fa-linkedin"></i></a>
                 <a href="mailto:m.teresacastrogonzalez@gmail.com" target='_blank' rel="noreferrer" aria-label='Send an email to MTCG'><i className="fa-solid fa-square-envelope"></i></a>
             </div>
-            <p className='footer__by'>Developed by <span className='footer__by--span'>mteresacastro <button id="present">✨</button></span></p>
+            <p className='footer__by'>Developed by
+                <span className='footer__by--span'>mteresacastro
+                    <button onClick={toggleFlower} id="present">🌸</button>
+                </span>
+            </p>
         </footer>
     );
+
+
 }
 
-
+Footer.propTypes = {
+    toggleFlower: PropTypes.func.isRequired
+};
 export default Footer;
