@@ -2,7 +2,7 @@
 import '../styles/introSection.scss';
 
 import photo from '../../src/images/mifoto2.webp';
-import cv from '../../src/assets/CV_Teresa_Castro_G.pdf';
+import cv from '../../src/assets/ES_CV_Teresa_Castro_G.pdf';
 
 function IntroSection() {
     console.log("Si tienes alguna pregunta, no dudes en contactarme! Te ayudaré en lo que pueda 🌸")
@@ -14,7 +14,7 @@ function IntroSection() {
                 <h2 className="mainIntro__data--h2">Full Stack Developer</h2>
                 <p className="mainIntro__data--desc">Enamorada del mundo Tech, apasionada por el desarrollo web y la creación de interfaces de usuario atractivas y fáciles de usar.</p>
                 <p className="mainIntro__data--desc">Disfruto con el trabajo en equipo para crear <span className="mainIntro__data--desc-span">soluciones innovadoras</span> y <span className="mainIntro__data--desc-span">efectivas</span> . Actúo de manera consecuente, soy <span className="mainIntro__data--desc-span">incansable</span> y no me dan miedo los retos.</p>
-                <a href={cv} download="MTeresaCastro-CV.pdf" aria-label='Download Maria Teresa Castro CV'>
+                <a href={cv} download="ES_CV_Teresa_Castro_G.pdf" aria-label='Download Maria Teresa Castro CV'>
                     <button>Descargar CV</button>
                 </a>
                 <div className='mainIntro__data--contactInfo'>
