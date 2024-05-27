@@ -16,6 +16,8 @@ import scrum from '../../src/images/scrum-48.png'
 import figma from '../../src/images/figma-96.png'
 import mongo from '../../src/images/mongodb-96.png'
 import tailwind from '../../src/images/tailwind-96.png'
+import angular from '../../src/images/angular-96.png'
+import typescript from '../../src/images/typescript-96.png'
 
 function MainSkills() {
 
@@ -29,8 +31,10 @@ function MainSkills() {
                 <img className="mainSkills__box--img" src={sass} alt="sass logo" title="SASS" />
                 <img className="mainSkills__box--img" src={tailwind} alt="tailwind logo" title="Tailwind" />
                 <img className="mainSkills__box--img" src={javascript} alt="javascript logo" title="JavaScript" />
+                <img className="mainSkills__box--img" src={typescript} alt="typescript logo" title="Typescript" />
                 <img className="mainSkills__box--img" src={react} alt="react logo" title="ReactJS" />
                 <img className="mainSkills__box--img" src={vue} alt="vue js logo" title="VueJS" />
+                <img className="mainSkills__box--img" src={angular} alt="angular logo" title="Angular" />
                 <img className="mainSkills__box--img" src={vite} alt="vite logo " title="Vite" />
                 <img className="mainSkills__box--img" src={nodejs} alt="node js logo" title="NodeJS" />
                 <img className="mainSkills__box--img" src={expressjs} alt="express js logo" title="ExpressJS" />

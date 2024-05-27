@@ -10,6 +10,7 @@ import owen from '../../src/images/owen.webp'
 import guitarSI from '../../src/images/guitarSI.webp'
 import adminVet from '../../src/images/AdminPacientes.webp'
 import cripto from '../../src/images/cripto.webp'
+import gifsApp from '../../src/images/gifsApp.png'
 
 import { useState } from 'react'
 import 'animate.css';
@@ -21,20 +22,32 @@ import javascript from '../../src/images/javascript-48.png'
 import react from '../../src/images/react-48.png'
 import scrum from '../../src/images/scrum-48.png'
 import vue from '../../src/images/vue-48.png'
+import typescript from '../../src/images/typescript-96.png'
+import angular from '../../src/images/angular-96.png'
 
 
 function MainProjects() {
     const logos = [
-        { src: { html }, alt: 'logo html', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce', 'Gestor de pacientes', 'Cotiza criptomonedas'] },
-        { src: { css }, alt: 'logo css', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce', 'Gestor de pacientes', 'Cotiza criptomonedas'] },
+        { src: { html }, alt: 'logo html', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce', 'Gestor de pacientes', 'Cotiza criptomonedas', 'Gifs App'] },
+        { src: { css }, alt: 'logo css', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce', 'Gestor de pacientes', 'Cotiza criptomonedas', 'Gifs App'] },
         { src: { sass }, alt: 'logo sass', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!'] },
         { src: { javascript }, alt: 'logo javascript', project: ['Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce', 'Gestor de pacientes', 'Cotiza criptomonedas'] },
         { src: { react }, alt: 'logo react', project: ['Juego del ahorcado', 'Owen Wilson`s WOW!'] },
         { src: { scrum }, alt: 'logo scrum', project: ['Team Presentation', 'Profile Cards'] },
-        { src: { vue }, alt: 'logo react', project: ['GuitarSI e-commerce', 'Gestor de pacientes', 'Cotiza criptomonedas'] }
+        { src: { vue }, alt: 'logo react', project: ['GuitarSI e-commerce', 'Gestor de pacientes', 'Cotiza criptomonedas'] },
+        { src: { typescript }, alt: 'logo typescript', project: ['Gifs App'] },
+        { src: { angular }, alt: 'logo angular', project: ['Gifs App'] }
     ];
 
     const articulos = [{
+        demoLink: "https://mteresacastro.github.io/03-gifs-app/",
+        imageSrc: gifsApp,
+        description: 'Buscador de gifs animados con almacenamiento de historial',
+        logos: { logos },
+        codeLink: "https://github.com/mteresacastro/03-gifs-app",
+        title: 'Gifs App',
+        technology: 'Angular'
+    }, {
         demoLink: "https://mteresacastro.github.io/cripto-vue/",
         imageSrc: cripto,
         description: 'Cotizador de criptomonedas en tiempo real. Uso de composable y API externa. Desarrollada con Vue.js.',
@@ -147,6 +160,7 @@ function MainProjects() {
                 <button className={`btn ${filtro === "Todos" ? "active" : ""}`} onClick={() => handleFiltroClick("Todos")}>Todos</button>
                 <button className={`btn ${filtro === "Vue.js" ? "active" : ""}`} onClick={() => handleFiltroClick("Vue.js")}>Vue.js</button>
                 <button className={`btn ${filtro === "React.js" ? "active" : ""}`} onClick={() => handleFiltroClick("React.js")}>React.js</button>
+                <button className={`btn ${filtro === "Angular" ? "active" : ""}`} onClick={() => handleFiltroClick("Angular")}>Angular</button>
                 <button className={`btn ${filtro === "Javascript" ? "active" : ""}`} onClick={() => handleFiltroClick("Javascript")}>Javascript</button>
                 <button className={`btn ${filtro === "Maquetación" ? "active" : ""}`} onClick={() => handleFiltroClick("Maquetación")}>Maquetación</button>
             </div>
