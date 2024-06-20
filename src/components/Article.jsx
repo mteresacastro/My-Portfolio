@@ -1,23 +1,24 @@
 import '../styles/mainProject.scss';
 import PropTypes from 'prop-types';
+import Carrousel from './Carrousel';
 
 function Article({ demoLink, imageSrc, description, logos, codeLink, title, animar }) {
-    const filteredLogos = logos.filter((logo) => {
-        return logo.project.includes(title);
-    });
-    const logoList = filteredLogos.map((logo, index) => (
+    // const filteredLogos = logos.filter((logo) => {
+    //     return logo.project.includes(title);
+    // });
+    // const logoList = filteredLogos.map((logo, index) => (
 
-        <li key={index}>
-            <img className="art__div--ul-img" src={Object.values(logo.src)[0]} alt={logo.alt} />
-        </li>
+    //     <li key={index}>
+    //         <img className="art__div--ul-img" src={Object.values(logo.src)[0]} alt={logo.alt} />
+    //     </li>
 
-    ));
+    // ));
 
     return (
         <div className={`column animate__animated ${animar ? 'animate__backInUp' : ''}`}>
             <a className="link" href={demoLink} target='_blank' rel='noreferrer' aria-label={`Visit this project: ${title}`}>
                 <article className="mainProjects__art">
-                    <div className="mainProjects__art--container">
+                    {/* <div className="mainProjects__art--container">
                         <img className="mainProjects__art--container-img" src={imageSrc} alt="" />
                         <div className="mainProjects__art--container-div">
                             <h4 className="art__div--h4">Visitar Demo</h4>
@@ -26,7 +27,8 @@ function Article({ demoLink, imageSrc, description, logos, codeLink, title, anim
                                 {logoList}
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
+                    <Carrousel logos={logos} title={title} imageSrc={imageSrc} description={description} ></Carrousel>
                 </article>
             </a>
             <a className="a" href={codeLink} target='_blank' rel='noreferrer' aria-label={`Visit the code of this project: ${title}`}>
