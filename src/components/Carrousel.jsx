@@ -32,7 +32,7 @@ function Carrousel({ logos, title, imageSrc, description }) {
 
     if (isMobile) {
         if (showImage) {
-            return <img className="mainProjects__art--container-img animate__fadeOut " src={imageSrc} alt="" />;
+            return <img className="mainProjects__art--container-img" src={imageSrc} alt="" />;
         } else {
             return (
                 <div className="mainProjects__art--container">

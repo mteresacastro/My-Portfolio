@@ -11,6 +11,7 @@ import guitarSI from '../../src/images/guitarSI.webp'
 import adminVet from '../../src/images/AdminPacientes.webp'
 import cripto from '../../src/images/cripto.webp'
 import gifsApp from '../../src/images/gifsApp.png'
+import countryApp from '../../src/images/countryApp.webp'
 
 import { useState } from 'react'
 import 'animate.css';
@@ -24,25 +25,37 @@ import scrum from '../../src/images/scrum-48.png'
 import vue from '../../src/images/vue-48.png'
 import typescript from '../../src/images/typescript-96.png'
 import angular from '../../src/images/angular-96.png'
+import bootstrap from '../../src/images/bootstrap-96.png'
 
 
 function MainProjects() {
     const logos = [
-        { src: { html }, alt: 'logo html', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce', 'Gestor de pacientes', 'Cotiza criptomonedas', 'Gifs App'] },
-        { src: { css }, alt: 'logo css', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce', 'Gestor de pacientes', 'Cotiza criptomonedas', 'Gifs App'] },
+        { src: { html }, alt: 'logo html', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce', 'Gestor de pacientes', 'Cotiza criptomonedas', 'Gifs App', 'Country App'] },
+        { src: { css }, alt: 'logo css', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce', 'Gestor de pacientes', 'Cotiza criptomonedas', 'Gifs App', 'Country App'] },
         { src: { sass }, alt: 'logo sass', project: ['Back to school', 'Team Presentation', 'Spotify', 'Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!'] },
+        { src: { bootstrap }, alt: 'logo bootstrap', project: ['Gifs App', 'Country App', 'GuitarSI e-commerce'] },
         { src: { javascript }, alt: 'logo javascript', project: ['Profile Cards', 'Piedra, Papel, Tijera', 'Juego del ahorcado', 'Owen Wilson`s WOW!', 'GuitarSI e-commerce', 'Gestor de pacientes', 'Cotiza criptomonedas'] },
         { src: { react }, alt: 'logo react', project: ['Juego del ahorcado', 'Owen Wilson`s WOW!'] },
         { src: { scrum }, alt: 'logo scrum', project: ['Team Presentation', 'Profile Cards'] },
         { src: { vue }, alt: 'logo react', project: ['GuitarSI e-commerce', 'Gestor de pacientes', 'Cotiza criptomonedas'] },
-        { src: { typescript }, alt: 'logo typescript', project: ['Gifs App'] },
-        { src: { angular }, alt: 'logo angular', project: ['Gifs App'] }
+        { src: { typescript }, alt: 'logo typescript', project: ['Gifs App', 'Country App'] },
+        { src: { angular }, alt: 'logo angular', project: ['Gifs App', 'Country App'] }
     ];
 
+
+
     const articulos = [{
+        demoLink: "https://mteresacastro.github.io/04-countryApp/",
+        imageSrc: countryApp,
+        description: 'Buscador de información de países, uso de API externa. Persistencia de información entre pantallas.',
+        logos: { logos },
+        codeLink: "https://github.com/mteresacastro/04-countryApp",
+        title: 'Country App',
+        technology: 'Angular'
+    }, {
         demoLink: "https://mteresacastro.github.io/03-gifs-app/",
         imageSrc: gifsApp,
-        description: 'Buscador de gifs animados con almacenamiento de historial',
+        description: 'Buscador de gifs animados con almacenamiento de historial.',
         logos: { logos },
         codeLink: "https://github.com/mteresacastro/03-gifs-app",
         title: 'Gifs App',
@@ -58,7 +71,7 @@ function MainProjects() {
     }, {
         demoLink: "https://mteresacastro.github.io/AdminPacientes-Vue/",
         imageSrc: adminVet,
-        description: 'Administración de pacientes de clínica veterinaria. Registro, edición y eliminación de pacientes. Desarrollado con Vue.js',
+        description: 'Administración de pacientes de clínica veterinaria. Registro, edición y eliminación de pacientes. Desarrollado con Vue.js.',
         logos: { logos },
         codeLink: "https://github.com/mteresacastro/AdminPacientes-Vue",
         title: 'Gestor de pacientes',
@@ -98,7 +111,7 @@ function MainProjects() {
     }, {
         demoLink: "https://mteresacastro.github.io/Profile-Cards-JS/",
         imageSrc: profileCards,
-        description: 'Web desarrollada con JS Vanilla. Crea tu tarjeta de perfil personalizada con tus datos de contacto. Diseño responsive', logos: { logos },
+        description: 'Web desarrollada con JS Vanilla. Crea tu tarjeta de perfil personalizada con tus datos de contacto. Diseño responsive.', logos: { logos },
         codeLink: "https://github.com/mteresacastro/Profile-Cards-JS",
         title: 'Profile Cards',
         technology: 'Javascript'
