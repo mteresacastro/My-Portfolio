@@ -19,6 +19,8 @@ import tailwind from '../../src/images/tailwind-96.png'
 import angular from '../../src/images/angular-96.png'
 import typescript from '../../src/images/typescript-96.png'
 import bootstrap from '../../src/images/bootstrap-96.png'
+import php from '../../src/images/php-96.png'
+import laravel from '../../src/images/laravel-96.png'
 
 function MainSkills() {
 
@@ -37,6 +39,8 @@ function MainSkills() {
                 <img className="mainSkills__box--img" src={react} alt="react logo" title="ReactJS" />
                 <img className="mainSkills__box--img" src={vue} alt="vue js logo" title="VueJS" />
                 <img className="mainSkills__box--img" src={angular} alt="angular logo" title="Angular" />
+                <img className="mainSkills__box--img" src={php} alt="php logo" title="php" />
+                <img className="mainSkills__box--img" src={laravel} alt="laravel logo" title="Lravel" />
                 <img className="mainSkills__box--img" src={vite} alt="vite logo " title="Vite" />
                 <img className="mainSkills__box--img" src={nodejs} alt="node js logo" title="NodeJS" />
                 <img className="mainSkills__box--img" src={expressjs} alt="express js logo" title="ExpressJS" />
